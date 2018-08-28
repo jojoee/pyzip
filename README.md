@@ -34,7 +34,7 @@ pyzip(['a', 'b', 'c'], [1, 2, 3, 4], ['A', 'B']) // [['a', 1, 'A'], ['b', 2, 'B'
 pyzip([], []) // []
 
 // all invalid will returns empty array ([])
-pyzip([1, 2, 3]))
+pyzip([1, 2, 3])
 pyzip('', '')
 pyzip(1, 2)
 pyzip(undefined, undefined)
