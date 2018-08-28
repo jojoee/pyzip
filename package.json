@@ -1,6 +1,6 @@
 {
   "name": "pyzip",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Fast and safe Python `zip` with no dependencies",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,10 @@
     "commit": "git-cz",
     "coverage.check": "jest --coverage",
     "coverage.report": "cat ./coverage/lcov.info | codecov",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release",
     "standard": "standard",
-    "validate": "npm run standard && npm run coverage.check"
+    "validate": "npm run standard && npm run coverage.check",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "config": {
     "ghooks": {
@@ -47,8 +48,9 @@
     "cz-conventional-changelog": "1.1.6",
     "ghooks": "1.3.2",
     "jest": "^21.0.1",
-    "semantic-release": "^11.0.2",
-    "standard": "^10.0.3"
+    "semantic-release": "^15.9.12",
+    "standard": "^10.0.3",
+    "travis-deploy-once": "^5.0.4"
   },
   "jest": {
     "verbose": true,
