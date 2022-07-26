@@ -1,7 +1,6 @@
 # pyzip
 
 [![Travis](https://img.shields.io/travis/jojoee/pyzip.svg)](https://travis-ci.org/jojoee/pyzip)
-[![Dependency Status](https://david-dm.org/jojoee/pyzip.svg)](https://david-dm.org/jojoee/pyzip) 
 [![Codecov](https://img.shields.io/codecov/c/github/jojoee/pyzip.svg)](https://codecov.io/github/jojoee/pyzip)
 [![Version - npm](https://img.shields.io/npm/v/pyzip.svg)](https://www.npmjs.com/package/pyzip)
 [![License - npm](https://img.shields.io/npm/l/pyzip.svg)](http://opensource.org/licenses/MIT)
