@@ -1,5 +1,7 @@
 # pyzip
 
+![continuous-integration](https://github.com/jojoee/pyzip/workflows/continuous-integration/badge.svg?branch=master)
+![release](https://github.com/jojoee/pyzip/workflows/release/badge.svg?branch=master)
 [![Codecov](https://img.shields.io/codecov/c/github/jojoee/pyzip.svg)](https://codecov.io/github/jojoee/pyzip)
 [![Version - npm](https://img.shields.io/npm/v/pyzip.svg)](https://www.npmjs.com/package/pyzip)
 [![License - npm](https://img.shields.io/npm/l/pyzip.svg)](http://opensource.org/licenses/MIT)
