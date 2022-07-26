@@ -45,7 +45,6 @@ jobs:
 
       - name: Test and test coverage
         run: |
-          npm run coverage
           npm run coverage.check
 
       - name: Upload coverage to Codecov
