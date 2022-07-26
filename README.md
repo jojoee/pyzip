@@ -41,4 +41,3 @@ pyzip(1, '2')
 
 ## Reference
 - [2. Built-in Functions - zip](https://docs.python.org/3/library/functions.html#zip)
-
