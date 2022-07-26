@@ -6,21 +6,11 @@
   "scripts": {
     "test": "jest",
     "test.watch": "npm run test -- --watch",
-    "commit": "git-cz",
     "coverage.check": "jest --coverage",
     "coverage.report": "cat ./coverage/lcov.info | codecov",
-    "semantic-release": "semantic-release",
     "standard": "standard",
     "validate": "npm run standard && npm run coverage.check",
     "travis-deploy-once": "travis-deploy-once"
-  },
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run validate"
-    },
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
   },
   "repository": {
     "type": "git",
@@ -44,11 +34,7 @@
   "dependencies": {},
   "devDependencies": {
     "codecov": "^3.1.0",
-    "commitizen": "3.0.5",
-    "cz-conventional-changelog": "2.1.0",
-    "ghooks": "2.0.4",
     "jest": "^23.6.0",
-    "semantic-release": "^15.9.12",
     "standard": "^12.0.1",
     "travis-deploy-once": "^5.0.4"
   },
